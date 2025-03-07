@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+    />
+    <title>Portfolio Personal</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <section class="marca">
+          <a id="marca" class="nombre" href="marca"
+            >Roman Ulloa - Full Stack Developer</a
+          >
+        </section>
+        <ul>
+          <a id="sobre-mi" href="#">Sobre mi</a>
+        </ul>
+
+        <ul>
+          <a id="proyectos" href="#">Proyectos</a>
+        </ul>
+
+        <ul>
+          <a id="contacto" href="#">Contacto</a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main">
+      <section id="sobre-mi" class="About-me">
+        <div class="informacionPersonal">
+          <h1 class="firstH">Sobre mi</h1>
+          <p class="texto-info">
+            Soy Roman Ulloa, estudiante de Ingenieria en informatica, desarrollo
+            de software y full stack.<br />
+            Me apasiona cada ambito del desarrollo, desde el diseño hasta la
+            implementacion de la solucion. <br />
+            En esta pagina veran mi recorrido y formacion como desarrollador.
+          </p>
+        </div>
+        <h1 class="int">Intereses</h1>
+        <div class="intereses">
+          <ul class="lista-intereses">
+            <li class="interes-item">
+              <img
+                src="Desarrollo.png"
+                alt="Desarrollo Web"
+                class="interes-imagen"
+              />
+              <div class="interes">
+                <span>Desarrollo web</span>
+              </div>
+            </li>
+            <li class="interes-item">
+              <img src="ux.png" alt="Diseño UX/UI" class="interes-imagen" />
+              <div class="interes">
+                <span>Diseño UX/UI</span>
+              </div>
+            </li>
+            <li class="interes-item">
+              <img
+                src="database.png"
+                alt="Manejo de Datos"
+                class="interes-imagen"
+              />
+              <div class="interes">
+                <span>Manejo de datos</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <h1 class="mis">Mis Habilidades</h1>
+        <div class="skills"></div>
+      </section>
+      <section id="proyectos" class="projects">
+        <h1>Proyectos</h1>
+        <div class="proyectos">
+          <div id="proyecto1">
+            <p class="proyecto1">proyecto1</p>
+          </div>
+          <div id="proyecto2">
+            <p class="proyecto2">proyecto2</p>
+          </div>
+          <div id="proyecto3">
+            <p class="proyecto3">proyecto3</p>
+          </div>
+          <div id="proyecto4">
+            <p class="proyecto4">proyecto4</p>
+          </div>
+          <div id="proyecto5">
+            <p class="proyecto5">proyecto5</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h1>Contacto</h1>
+        <section id="contacto" class="contact">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Ingresa tu nombre"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                id="apellido"
+                placeholder="Ingresa tu apellido"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Ingresa tu email"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpiar</button>
+            <p class="copyright">Roman Ulloa - 2022</p>
+          </form>
+        </section>
+      </footer>
+    </div>
+    <script src="portfolio.js"></script>
+    <script src="https://getbootstrap.com/docs/5.3/getting-started/introduction/"></script>
+  </body>
+</html>
